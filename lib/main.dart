@@ -158,6 +158,10 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
 
+                  SizedBox(height: 10,),
+
+                  Text("You have an account LOG IN",style: TextStyle(color: const Color.fromARGB(255, 211, 210, 210), fontWeight: FontWeight.bold),),
+
                   SizedBox(
                     height: 10,
                   ),
@@ -173,7 +177,7 @@ class MyApp extends StatelessWidget {
                       onPressed: () {
                         print("Submited");
                       },
-                      child: Text("SIGN IN", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),))
+                      child: Text("SIGN UP", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),))
                 ],
               ),
             ),
